@@ -1,0 +1,31 @@
+{
+  "name": "web-app-s",
+  "version": "1.0.0",
+  "description": "Myself testing task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chernrus/WebApp-s.git"
+  },
+  "keywords": [
+    "task",
+    "web",
+    "front",
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "Chernov Ruslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chernrus/WebApp-s/issues"
+  },
+  "homepage": "https://github.com/chernrus/WebApp-s#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}

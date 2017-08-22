@@ -1,0 +1,16 @@
+.main-header__navigation a {
+  min-width: 105px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.main-header__navigation a:hover {
+    background: #66ccff;
+}
+
+.main-header__navigation ul {
+
+}
