@@ -18,6 +18,11 @@ app.get('/home', function(req, res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/view_one', function(req, res){
+  res.sendFile(path.join(__dirname, 'views', 'view1.html'));
+  //__dirname : It will resolve to your project folder.
+});
+
 app.listen(3000, function () {
   console.log('Server starting on ' + config.host + ':' + config.port);
 });
